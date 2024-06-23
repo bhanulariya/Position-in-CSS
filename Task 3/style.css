@@ -1,0 +1,44 @@
+/* CSS for Task 3 - Float Property */
+
+body {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(217, 206, 192);
+    width: 70%;
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+img {
+    float: right;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
